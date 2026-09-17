@@ -185,6 +185,69 @@ https://github.com/Ableton/LinkKit.
 "Ableton" and "Link" are trademarks of Ableton AG.</pre>
     </details>
 
+    <h2>Stem separation</h2>
+    <p>Splitting a sample into vocals, drums, bass and other is Deezer’s Spleeter. RUN4 bundles its 4-stems pretrained model converted to Core ML and runs it on your device — no audio is uploaded, and the feature works with no network connection.</p>
+    <details class="license">
+      <summary>Spleeter — Source separation model and weights · MIT</summary>
+      <pre>MIT License
+
+Copyright (c) 2019-present, Deezer SA.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+--------------------------------------------------------------------------
+WHAT RUN4 SHIPS
+--------------------------------------------------------------------------
+
+Stem Separation is Deezer's Spleeter. RUN4 bundles the 4-stems pretrained
+model -- vocals, drums, bass and other -- converted from the published
+TensorFlow weights into a Core ML model. The network architecture and the
+weights are Spleeter's; the conversion changes their storage format and
+numeric precision, not the model.
+
+Converted from Spleeter at commit
+c8854001ac8acad34a9bc2bd15f28475541828b1
+https://github.com/deezer/spleeter
+
+Separation runs entirely on your device. No audio is uploaded, and the
+feature needs no network connection.
+
+The conversion is reproducible: the scripts that produced the bundled model,
+together with this licence, the pinned commit and the numerical comparison
+against the original TensorFlow output, are kept in the RUN4 source tree
+under tools/stem-separation.
+
+
+--------------------------------------------------------------------------
+CITATION
+--------------------------------------------------------------------------
+
+Spleeter's authors ask that work using it cite their paper:
+
+  Romain Hennequin, Anis Khlif, Felix Voituret and Manuel Moussallam.
+  "Spleeter: a fast and efficient music source separation tool with
+  pre-trained models."
+  Journal of Open Source Software, 5(50), 2154, 2020.
+  https://doi.org/10.21105/joss.02154</pre>
+    </details>
+
     <h2>Integrations</h2>
     <p>AudioShare moves selected sounds between RUN4 and other apps on the device.</p>
     <details class="license">
