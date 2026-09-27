@@ -252,7 +252,7 @@
       </p>
       <div class="book-meta">
         <span><b>10</b> parts</span>
-        <span><b>59</b> sections</span>
+        <span><b>60</b> sections</span>
         <span><b>iPhone + iPad</b> both idioms</span>
         <span><b>TÓLF</b> chapter included</span>
       </div>
@@ -281,7 +281,7 @@
 <li class="toc-part"><a class="toc-head" href="#part-mixing-and-routing"><span class="n">07</span>Mixing and routing</a><ul><li><a href="#part-mixing-and-routing-mixer-sends-and-master">Mixer, sends, and master</a></li><li><a href="#part-mixing-and-routing-audio-interface-routing">Audio interface routing</a></li><li><a href="#part-mixing-and-routing-export-and-bounce">Export and bounce</a></li></ul></li>
 <li class="toc-part"><a class="toc-head" href="#part-sync-and-control"><span class="n">08</span>Sync and control</a><ul><li><a href="#part-sync-and-control-midi-settings">MIDI settings</a></li><li><a href="#part-sync-and-control-ableton-link-and-auv3">Ableton Link and AUv3</a></li><li><a href="#part-sync-and-control-run4-on-the-mac-and-inside-a-host">RUN4 on the Mac, and inside a host</a></li></ul></li>
 <li class="toc-part"><a class="toc-head" href="#part-reference"><span class="n">09</span>Reference</a><ul><li><a href="#part-reference-performance-tips">Performance tips</a></li><li><a href="#part-reference-keyboard-shortcuts">Keyboard shortcuts</a></li><li><a href="#part-reference-troubleshooting">Troubleshooting</a></li></ul></li>
-<li class="toc-part tolf"><a class="toc-head" href="#part-tolf"><span class="n">10</span>TÓLF</a><ul><li><a href="#part-tolf-what-tolf-is">What TÓLF is</a></li><li><a href="#part-tolf-tracks-and-their-sounds">Tracks and their sounds</a></li><li><a href="#part-tolf-writing-steps">Writing steps</a></li><li><a href="#part-tolf-generators">Generators</a></li><li><a href="#part-tolf-generators-orbit">Generators: ORBIT</a></li><li><a href="#part-tolf-generators-tide">Generators: TIDE</a></li><li><a href="#part-tolf-keeping-a-phrase">Keeping a phrase</a></li><li><a href="#part-tolf-arp-and-strum">Arp and Strum</a></li><li><a href="#part-tolf-sample-pads-and-kits">Sample pads and kits</a></li><li><a href="#part-tolf-chopping-a-sample">Chopping a sample</a></li><li><a href="#part-tolf-playing-slices-from-the-keys">Playing slices from the keys</a></li><li><a href="#part-tolf-velocity-zones-and-the-multisampler">Velocity zones and the Multisampler</a></li><li><a href="#part-tolf-master-devices">Master Devices</a></li><li><a href="#part-tolf-modulation">Modulation</a></li><li><a href="#part-tolf-patterns-scenes-and-song">Patterns, scenes and song</a></li><li><a href="#part-tolf-mixing">Mixing</a></li><li><a href="#part-tolf-recording-tolf-into-tape">Recording TÓLF into Tape</a></li><li><a href="#part-tolf-bouncing-and-exporting">Bouncing and exporting</a></li><li><a href="#part-tolf-midi">MIDI</a></li></ul></li>
+<li class="toc-part tolf"><a class="toc-head" href="#part-tolf"><span class="n">10</span>TÓLF</a><ul><li><a href="#part-tolf-what-tolf-is">What TÓLF is</a></li><li><a href="#part-tolf-tracks-and-their-sounds">Tracks and their sounds</a></li><li><a href="#part-tolf-writing-steps">Writing steps</a></li><li><a href="#part-tolf-generators">Generators</a></li><li><a href="#part-tolf-generators-orbit">Generators: ORBIT</a></li><li><a href="#part-tolf-generators-tide">Generators: TIDE</a></li><li><a href="#part-tolf-generators-collider">Generators: COLLIDER</a></li><li><a href="#part-tolf-keeping-a-phrase">Keeping a phrase</a></li><li><a href="#part-tolf-arp-and-strum">Arp and Strum</a></li><li><a href="#part-tolf-sample-pads-and-kits">Sample pads and kits</a></li><li><a href="#part-tolf-chopping-a-sample">Chopping a sample</a></li><li><a href="#part-tolf-playing-slices-from-the-keys">Playing slices from the keys</a></li><li><a href="#part-tolf-velocity-zones-and-the-multisampler">Velocity zones and the Multisampler</a></li><li><a href="#part-tolf-master-devices">Master Devices</a></li><li><a href="#part-tolf-modulation">Modulation</a></li><li><a href="#part-tolf-patterns-scenes-and-song">Patterns, scenes and song</a></li><li><a href="#part-tolf-mixing">Mixing</a></li><li><a href="#part-tolf-recording-tolf-into-tape">Recording TÓLF into Tape</a></li><li><a href="#part-tolf-bouncing-and-exporting">Bouncing and exporting</a></li><li><a href="#part-tolf-midi">MIDI</a></li></ul></li>
           </ol>
         </div>
       </aside>
@@ -590,12 +590,13 @@
 <article class="chapter" id="part-devices-mod-the-four-modulators">
 <h3><a href="#part-devices-mod-the-four-modulators">Mod: the four modulators</a></h3>
 <p>Mod comes after the four devices, but no sound passes through it. It holds four modulators, M1 to M4, for the selected track, and they move the other devices for you.</p>
-<p>Each slot can be an LFO, an Envelope, a Random source, a Follow source or a Self-Listening one. The LFO offers Sine, Triangle, Square, Saw, Sample Hold, Draw and Steps. The Envelope starts on Transport or Note. Random produces stepped or smooth changes. Follow follows the track&#x27;s Level control, including any modulation on it. Self listens to the energy of the whole mix.</p>
+<p>Each slot can be an LFO, an Envelope, a Random source, a Follow source or a Self-Listening one. The LFO offers Sine, Triangle, Square, Saw, Sample Hold, Draw and Steps. The Envelope starts on Transport or Note. Random produces stepped or smooth changes; with Smooth up, it glides all the way to its next value, however slow the rate. Follow follows the track&#x27;s Level control, including any modulation on it. Self listens to the energy of the whole mix.</p>
 <p>You can connect from either end. Add Target in the Mod device sends a modulator to a parameter, or long-press any parameter and assign a modulator there. One modulator can move several parameters. Depth works both ways, so one modulator can push one parameter up while pulling another down, and several modulators on one parameter add together.</p>
 <p>Draw lets you paint a modulator by hand. Pick an M slot, set Source to LFO and Wave to Draw, then drag left to right across Draw Gesture to paint one cycle. The middle line is zero, above is positive, below is negative. Quick strokes are smoothed so the curve stays unbroken.</p>
 <p>Undo brings back the previous drawing, Smooth softens sharp corners, and Clear flattens it. The curve can repeat as a Loop or play once as One Shot. One Shot starts on Transport or Note, and Touch Trigger fires it from the panel so you can hear it while setting it up.</p>
 <p>Steps is the stepped version of Draw. Choose Steps as the Wave to get a row of fixed values instead of a curve. Steps sets how many, from 2 to 32, shown eight per row. Drag across the cells to set them — one drag can sweep a whole ramp. It is saved with the Set like a Draw curve.</p>
 <p>Any number of steps works, not just 4, 8 or 16 — and odd numbers are the fun part. A table of 13 or 15 steps against a 16-step pattern takes several bars to line up again, which keeps things moving.</p>
+<p>Rate goes down to about one cycle every ten minutes on both the LFO and Random, for slow drifts across a whole set. Slow rates read as a time, like 75 s or 8.3 min, instead of hertz.</p>
 <p>The shape controls work on every wave, Steps included. Rate is speed, Depth is how much, Phase moves the starting point, Skew shifts the timing within a cycle, Fold folds the shape into extra turns, Curve changes its response, and Spread offsets tracks and slots from each other so four tracks don&#x27;t all breathe together.</p>
 <p>Draw curves, modulator settings and connections are all saved with the current Set.</p>
 <figure class="manual-figure"><img class="plate" src="assets/manual/pad-mod-draw.webp" alt="A Draw cycle: the painted curve becomes the LFO movement." style="aspect-ratio: 1400 / 965; flex: 1.451 1 0%" loading="lazy" decoding="async"><figcaption>A Draw cycle: the painted curve becomes the LFO movement.</figcaption></figure>
@@ -658,7 +659,7 @@
 <p>You can open it in two places. In Perform, the waveform button in the top toolbar fills the screen with it. On iPad in landscape, the Quick dock&#x27;s Perform tab has a Visual page (next to Pad, Macros and Punch) with a live preview, and Open Visualizer runs the full stage inside the dock, so the tapes, mixer and transport stay usable around it.</p>
 <p>It works in the AUv3 plug-in too: Open Visualizer shows it inside the host&#x27;s window, and Full Screen goes one step further.</p>
 <p>From the docked stage, Full Screen fills the whole display. Closing full screen takes you back to the dock with the same scene, palette and source.</p>
-<p>Tap once to show or hide the controls; while music plays they hide again after a couple of seconds, and when everything is stopped a play button appears instead. From there you can Close, go Full Screen, choose the audio source, choose the scene, switch palette, and open Touch FX.</p>
+<p>Tap once to show or hide the controls; while music plays they hide again after a couple of seconds, and when everything is stopped a play button appears instead. From there you can Close, go Full Screen, Stop, choose the audio source, choose the scene, switch palette, and open Touch FX. Stop stops all playback — the same as a double tap on the transport&#x27;s stop — and lights up while anything is playing.</p>
 <p>Source picks what drives the picture: the master output, a single tape, or Auto, which follows the selected track and changes scenes by itself. With one tape chosen, the others step back so the picture stays clear.</p>
 <p>Color switches between the four track colours and Black &amp; White, where brightness does the talking. Light switches the stage to a light background.</p>
 <p>Swipe left or right to change scene. With Touch FX on, one finger plays the effects, so use two fingers to change scene. The scene menu always works.</p>
@@ -690,7 +691,8 @@
 <p>Fenrir. Layers of broken plates that grow, stretch at their own pace, and fall back to the centre.</p>
 <p>Nornir. Points joining into shifting constellations.</p>
 <p>Mjolnir. One ring of particles per frequency band, moving outward as that band gets louder.</p>
-<p>Huginn. The RUN4 bird.</p>
+<p>Alfheim. Four curtains of northern light, one per track colour. Each shows its own quarter of the spectrum across the screen, the lowest curtain the bass, and a played note flashes their lower edges.</p>
+<p>Huginn. The RUN4 raven, drawn from over a thousand fine points. Each part of the body takes one tape&#x27;s colour and moves with it; loud passages loosen the bird, and it settles again as the music calms.</p>
 <p>Galdr. Runes drawn and redrawn.</p>
 <p>Midgard. A landscape made of sound: frequency across, time fading into the horizon, loudness as height.</p>
 <p>Thor. Layers of cloud, one per tape, with lightning that strikes more often as the music gets louder. Each bolt takes the colour of the loudest tape.</p>
@@ -860,9 +862,9 @@
 </article>
 <article class="chapter" id="part-tolf-generators">
 <h3><a href="#part-tolf-generators">Generators</a></h3>
-<p>You don&#x27;t have to write every part by hand. Six generators can make the notes for you. They live on the GENERATOR card in CREATE, and they work on Synth tracks. To start one, tap GEN above the step grid.</p>
-<p>EUCLID spreads a number of hits as evenly as possible across a number of steps — the rhythm behind a lot of drum music. WALK moves from note to note without a plan. CASCADE falls through a phrase and starts again from the top. BLOOM drifts in slow clouds, with several speeds of change layered together. ORBIT replays your own steps with up to four playheads, and TIDE builds your steps up and lets them fall away — each has its own section right after this one.</p>
-<p>KIND picks the generator, and CLOCK sets its speed. The other controls change with the generator: PULSES and ROTATE for EUCLID, STEPS for EUCLID and CASCADE, DENSITY and RANGE for WALK, CASCADE and BLOOM, head chips for ORBIT, and SHAPE, CYCLE and LIFT for TIDE. The card&#x27;s preview shows the pattern running before you commit to anything. STEPS in the card&#x27;s top corner switches the generator off and brings your step grid back.</p>
+<p>You don&#x27;t have to write every part by hand. Seven generators can make the notes for you. They live on the GENERATOR card in CREATE, and they work on Synth tracks. To start one, tap GEN above the step grid.</p>
+<p>EUCLID spreads a number of hits as evenly as possible across a number of steps — the rhythm behind a lot of drum music. WALK moves from note to note without a plan. CASCADE falls through a phrase and starts again from the top. BLOOM drifts in slow clouds, with several speeds of change layered together. ORBIT replays your own steps with up to four playheads, TIDE builds your steps up and lets them fall away, and COLLIDER sends your notes flying around a room — each has its own section right after this one.</p>
+<p>KIND picks the generator, and CLOCK sets its speed. The other controls change with the generator: PULSES and ROTATE for EUCLID, STEPS for EUCLID and CASCADE, DENSITY and RANGE for WALK, CASCADE and BLOOM, head chips for ORBIT, SHAPE, CYCLE and LIFT for TIDE, and ROOM and DENSITY for COLLIDER. The card&#x27;s preview shows the pattern running before you commit to anything. STEPS in the card&#x27;s top corner switches the generator off and brings your step grid back.</p>
 <p>Every generator works out its notes from the track&#x27;s seed and its position in the bar, and nothing else. The same bar always plays the same notes, and an export plays exactly what you heard — no need to turn it into steps first.</p>
 <p>The circular-arrows button (REROLL) draws a new seed. Nothing else changes: same generator, same settings, new notes.</p>
 <p>WALK starts out FREE: every note is picked on its own, so the line jumps around. LINE draws a connected melody instead — short steps, gently pulled back towards the root, starting again at the root every sixteen steps — so it sings a phrase rather than wandering off. Turn LINE up for a tighter, more singable line.</p>
@@ -890,6 +892,15 @@
 <p>CYCLE is how long one tide takes: 4, 8 or 16 passes of the phrase. LIFT raises the notes by up to two octaves as the curve reaches the top, so a build also climbs; OFF keeps them at their written pitch.</p>
 <p>Like ORBIT, TIDE plays the notes in your steps, through the track&#x27;s ROOT and SCALE. Tap NOTES to change them and GEN to return. The preview draws the whole curve, fills in the part already played, and lights up each note as it plays.</p>
 <p>TAKE PHRASE captures the pass you are hearing — handy for keeping one sparse or one full version of your phrase.</p>
+</article>
+<article class="chapter" id="part-tolf-generators-collider">
+<h3><a href="#part-tolf-generators-collider">Generators: COLLIDER</a></h3>
+<p>COLLIDER turns the notes on your track&#x27;s steps into balls in a square room. Every step with notes — up to eight — becomes one ball with its own course and speed. Whenever a ball hits a wall, it plays its step: the same notes, chord and length you wrote. The melody stays yours; only the timing comes loose, and it never falls into an obvious loop.</p>
+<p>ROOM sets the size of the room: a big room means long flights and few hits, a small one a busy rattle. DENSITY lets only some of the hits through. Faster balls play a little louder than slower ones.</p>
+<p>A ball&#x27;s course belongs to its step. Add or remove a note and every other ball keeps flying exactly as before. When two balls hit at the same moment, the earlier step plays. REROLL sends every ball on a new course.</p>
+<p>Nothing is simulated: like every generator, COLLIDER works its notes out from the seed and the position in the bar, so the same bar always plays the same notes and an export plays exactly what you heard.</p>
+<p>Like ORBIT and TIDE, COLLIDER plays through the track&#x27;s ROOT and SCALE. Tap NOTES to change the steps and GEN to return; with no notes on the steps it stays silent. The preview shows the room with every ball in flight and a spark on the wall where a ball has just played.</p>
+<p>TAKE PHRASE writes the bar you are hearing into the steps, so a lucky pattern can be kept and edited.</p>
 </article>
 <article class="chapter" id="part-tolf-keeping-a-phrase">
 <h3><a href="#part-tolf-keeping-a-phrase">Keeping a phrase</a></h3>
@@ -964,7 +975,8 @@
 </article>
 <article class="chapter" id="part-tolf-modulation">
 <h3><a href="#part-tolf-modulation">Modulation</a></h3>
-<p>TÓLF has four modulators, M1 to M4, shared by the whole project. Each one is an LFO with a WAVE, a RUN mode, a RATE in hertz, a PHASE offset and a DEPTH. FREE keeps it running; RETRIG restarts it every time the transport starts.</p>
+<p>TÓLF has four modulators, M1 to M4, shared by the whole project. Each one is an LFO with a WAVE, a RUN mode, a RATE, a PHASE offset and a DEPTH. FREE keeps it running; RETRIG restarts it every time the transport starts.</p>
+<p>Two waves make movement without a pattern. RANDOM jumps to a new value eight times per cycle; DRIFT glides smoothly from one to the next, for slow changes that never quite repeat. For these two, RATE shows how long one move takes rather than a whole cycle — down to about ten minutes for a single DRIFT move. Slow rates read as a time, like 75 s or 8.3 min, instead of hertz.</p>
 <p>DEPTH starts at zero, so a new modulator does nothing until you turn it up. The dot under each M1 to M4 tab shows which ones are active. CLEAR empties one slot and leaves the others alone. You&#x27;ll find them on the MOD page of Master Devices.</p>
 <p>You connect modulation from the parameter itself. Every continuous fader on a track&#x27;s sound has a small routing icon next to its name. Tap it, or long-press the fader, to see all four modulators. Assign one and set its amount from minus one to plus one, so one modulator can push one parameter up and pull another down. The modulator&#x27;s DEPTH then fades all its connections together.</p>
 <p>Long-pressing a fader never changes its value.</p>
@@ -1005,7 +1017,7 @@
 <h3><a href="#part-tolf-bouncing-and-exporting">Bouncing and exporting</a></h3>
 <p>TÓLF uses RUN4&#x27;s Export &amp; Bounce screen, in the ellipsis menu. TÓLF&#x27;s twelve tracks appear there as stems next to RUN4&#x27;s four, so one export covers the whole project.</p>
 <p>MIDI export writes a Standard MIDI File. Ableton export writes a complete Live Set as a zip, with the stems inside, ready to drag into Live.</p>
-<p>Both use the same engine you play with, so a generated part — EUCLID, WALK, CASCADE, BLOOM, ORBIT or TIDE — comes out exactly as you heard it.</p>
+<p>Both use the same engine you play with, so a generated part — EUCLID, WALK, CASCADE, BLOOM, ORBIT, TIDE or COLLIDER — comes out exactly as you heard it.</p>
 <p>Bouncing TÓLF onto a Tape replaces what is on that tape; it doesn&#x27;t overdub. The length is rounded to whole bars and suggested from the lengths of the tracks you picked, so the bounce loops cleanly.</p>
 <p>A bounce runs on its own copy of the engine, so it never disturbs what you are playing.</p>
 </article>
